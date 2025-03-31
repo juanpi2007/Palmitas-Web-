@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: "Times New Roman", sans-serif;
+    background-color: #FFF8DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menú superior */
+.menu-superior {
+    width: 100%;
+    background: linear-gradient(to right, green, aqua);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.menu-superior ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-superior li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu-superior a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-superior a:hover {
+    text-decoration: underline;
+}
+
+/* Menú lateral */
+.menu-lateral {
+    position: fixed; /* Posiciona el menú lateral fijo */
+    left: 0;
+    top: 160px; /* Ajusta según la altura del menú superior */
+    width: 150px;
+    height: calc(75% - 15px); /* Resta el tamaño del menú superior */
+    background: linear-gradient(to bottom, white, aqua);
+    padding-top: 30px;
+    text-align: center;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-lateral li {
+    margin: 10px 0;
+}
+
+.menu-lateral a {
+    color: orange;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.menu-lateral a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Contenido principal */
+.contenido {
+    margin-left: 220px; /* Da espacio al lado del menú lateral */
+    margin-top: 100px;
+    text-align: center;
+    width: 60%;
+    background-color: lime;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenido h2 {
+    color: red;
+    margin-bottom: 19px;
+}
+
+.contenido p {
+    font-size: 20px;
+    color: black;
+}
+
+/* Menú de pie de página */
+.menu-footer {
+    width: 100%;
+    background: linear-gradient(to right, #1d976c, #93f9b9);
+    text-align: center;
+    padding: 15px 10;
+    margin-top: 100px;
+}
+
+.menu-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-footer li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-footer a:hover {
+    text-decoration: underline;
+}
